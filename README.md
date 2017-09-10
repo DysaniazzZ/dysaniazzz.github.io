@@ -1,0 +1,1 @@
+This blog use Clean Blog theme, which is originally developed by [Start Bootstrap](http://startbootstrap.com/).
