@@ -1,0 +1,26 @@
+# Site settings
+title: Dysaniazzz
+header-img: img/home-bg.jpg
+email: William.fzy@foxmail.com
+copyright_name: Dysaniazzz
+description: "Do have faith in what you love."
+baseurl: ""
+url: ""
+twitter_username: 
+facebook_username: 
+stackoverflow_username: users/6482350/dysaniazzz 
+github_username:  Dysaniazzz
+email_username:  William.fzy@foxmail.com
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
