@@ -17,23 +17,23 @@ header-img: "img/20190606/bg.jpg"
 * 0x005：刷新页面(Windows 上是 F5 或 Ctrl + R，Mac 上是 command + R)，这时候 UA 已经是你改过的了，可以在 Console 里输入 navigator.userAgent 验证。
 * 注意：这种方式修改只能在当前 tab 生效，新建 tab 时仍旧是默认 UA。
 
-![](../img/20190606/001.png)
+![]({{site.baseurl}}/img/20190606/001.png)
 
-![](../img/20190606/002.png)
+![]({{site.baseurl}}/img/20190606/002.png)
 
-![](../img/20190606/003.png)
+![]({{site.baseurl}}/img/20190606/003.png)
 
-![](../img/20190606/004.png)
+![]({{site.baseurl}}/img/20190606/004.png)
 
-![](../img/20190606/005.png)
+![]({{site.baseurl}}/img/20190606/005.png)
 
 
 #### 0x02：通过使用扩展插件全局修改 UA
 
-* 0x01：下载 Chrome 插件：[User-Agent Switcher and Manager](https://chrome.google.com/webstore/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg)；
-* 0x02：选择浏览器和操作系统，点击 Apply，这么设置后浏览器访问任何网站就都是用你设置的 UA 了。
+* 0x001：下载 Chrome 插件：[User-Agent Switcher and Manager](https://chrome.google.com/webstore/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg)；
+* 0x002：选择浏览器和操作系统，点击 Apply，这么设置后浏览器访问任何网站就都是用你设置的 UA 了。
 
-![](../img/20190606/006.png)
+![]({{site.baseurl}}/img/20190606/006.png)
 
 > 参考链接
 
