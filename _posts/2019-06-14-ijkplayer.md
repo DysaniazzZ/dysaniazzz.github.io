@@ -114,9 +114,14 @@ header-img: "img/20190614/bg.jpg"
 
 ### Extension
 
-  * 显示视频文件封装信息及音视频信息：ffprobe -v error -show_format -show_streams -of json input.mp4
-  * 精简显示视频文件封装信息及音视频信息：ffprobe -v error -show_entries stream=codec_name:format=format_name -of json input.mp4
-  * 输出文件封装格式，音视频编码及宽高分辨率：ffprobe -v error -show_entries stream=codec_name,height,width:format=filename,format_name -of json input.mp4
-  * 显示视频编码格式：ffprobe -v error -select_streams v:0 -show_entries stream=codec_name -of default=nw=1:nk=1 input.mp4
-  * 显示音频编码格式：ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of default=nw=1:nk=1 input.mp4
-  * 显示视音频编码格式：ffprobe -v error -show_entries stream=codec_name -of default=nw=1:nk=1 input.mp4
+  * 显示视频文件封装信息及音视频信息：`ffprobe -v error -show_format -show_streams -of json input.mp4`
+
+  * 精简显示视频文件封装信息及音视频信息：`ffprobe -v error -show_entries stream=codec_name:format=format_name -of json input.mp4`
+
+  * 输出文件封装格式，音视频编码及宽高分辨率：`ffprobe -v error -show_entries stream=codec_name,height,width:format=filename,format_name -of json input.mp4`
+
+  * 显示视频编码格式：`ffprobe -v error -select_streams v:0 -show_entries stream=codec_name -of default=nw=1:nk=1 input.mp4`
+
+  * 显示音频编码格式：`ffprobe -v error -select_streams a:0 -show_entries stream=codec_name -of default=nw=1:nk=1 input.mp4`
+
+  * 显示视音频编码格式：`ffprobe -v error -show_entries stream=codec_name -of default=nw=1:nk=1 input.mp4`
